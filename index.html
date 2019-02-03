@@ -18,7 +18,7 @@
       </nav>
     </header>
     <main>
-      <!-- <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>        заголовок 1 -->
+    <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
       <section class="heading-features">
         <h2 class="main-h2">Седона - небольшой городок в аризоне,<br>заслуживающий большего!</h2>
         <p class="main-reasons">Рассмотрим 5 причин по которым седона круче, чем гранд каньон!</p>
@@ -29,11 +29,18 @@
       <section class="hotel-search-offer">
 				<b>Заинтересовались?</b>
 				<p>Укажите прдполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-				<span class="button-form">Поиск гостиницы в седоне</span>
+				<button class="button-form">Поиск гостиницы в седоне</button>
       </section>
+      <form class="idex-search-form" action="" method="post">
+        <label for="">Дата заезда:<input type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017"></label>
+        <label for="">Дата выезда:<input type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017"></label>
+        <label for="">Взрослые:<input type="text" name="number" value="2"></label>
+        <label for="">Дети:<input type="text" name="number" value="0" ></label>
+        <!-- Здесь будет выбор количества взрослых и детей -->
+      </form>
     </main>
     <footer class="main-footer">
-      <p class="hashtag" href="#">#Visitsedona</p>
+      <p class="hashtag">#Visitsedona</p>
       <ul class="footer-social">
         <li><a class="social-button" href="#">Твитер</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
