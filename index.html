@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <base href="https://htmlacademy-htmlcss.github.io/79293-sedona-24/2/"> -->
 </head>
   <body>
@@ -19,6 +22,9 @@
     </header>
     <main>
     <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
+    <div class="welcome-background">
+
+    </div>
       <section class="heading-features">
         <h2 class="main-h2">Седона - небольшой городок в аризоне,<br>заслуживающий большего!</h2>
         <p class="main-reasons">Рассмотрим 5 причин по которым седона круче, чем гранд каньон!</p>
@@ -33,11 +39,11 @@
       </section>
       <form class="idex-search-form" action="" method="post">
         <h2 class="visually-hidden">Быстрый поиск гостиницы</h2>
-        <label for="">Дата заезда:<input type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017"></label>
-        <label for="">Дата выезда:<input type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017"></label>
-        <label for="">Взрослые:<input type="text" name="number" value="2"></label>
-        <label for="">Дети:<input type="text" name="number" value="0" ></label>
-        <button type="submit">Найти</button>
+        <p class="index-search-date"><label for="index-form-check-in">Дата заезда:</label><input id="index-form-check-in" type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017"></p>
+        <p class="index-search-date"><label for="index-form-check-out">Дата выезда:</label><input id="index-form-check-out" type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017"></p></p>
+        <p class="index-search-sum"><label for="index-form-adults">Взрослые:</label><input id="index-form-adults" type="text" name="number" value="2"></p>
+        <p class="index-search-sum"><label for="index-form-children">Дети:</label><input id="index-form-children" type="text" name="number" value="0" ></p>
+        <p><button type="submit">Найти</button></p>
       </form>
     </main>
     <footer class="main-footer">
