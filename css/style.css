@@ -4,7 +4,7 @@ body {
   font-family: "PT Sans Regular", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: normal;
+  font-weight: 400;
   color: #333333;
   text-transform: uppercase;
   background-color: #ffffff;
@@ -32,6 +32,15 @@ a{
 }
 .site-navigation a{
   color: #000000;
+}
+.site-navigation a:hover{
+  color: #81b3d2;
+}
+.site-navigation a:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+.site-navigation .site-navigation-current{
+  color: #766357;
 }
 .welcome-background{
   background-color: #3e79a3;
@@ -65,7 +74,7 @@ a{
   line-height: 36px;
   color: #000000;
 }
-.button-form{
+.button-open-form{
   font: inherit;
   text-align: center;
   font-size: 21px;
@@ -77,10 +86,10 @@ a{
   background-color: #766357;
   border: none;
 }
-.button-form:hover{
+.button-open-form:hover{
   background-color: #604e43;
 }
-.button-form:active{
+.button-open-form:active{
   color: rgba(255, 255, 255, 0.7);
   background-color: #503e33;
 }
@@ -118,7 +127,7 @@ a{
   background-color: #ffffff;
   border: 2px solid ##ebebeb;
 }
-.idex-search-form button{
+.index-form-submut{
   font: inherit;
   text-align: center;
   font-size: 21px;
@@ -130,10 +139,102 @@ a{
   background-color: #81b3d2;
   border: none;
 }
-.idex-search-form button:hover{
+.index-form-submut:hover{
   background-color: #669ec0;
 }
-.idex-search-form button:active{
+.index-form-submut:active{
   color: rgba(255, 255, 255, 0.7);
   background-color: #5496bd;
+}
+/* Футер */
+.main-footer{
+  height: 120px;
+  background-color: rgba(249, 251, 246, 0.9);
+}
+.hashtag{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: underline;
+}
+.footer-social{
+  text-align: center;
+}
+.footer-social ul{
+  list-style-type: none;
+}
+.social-button{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+.footer-copyright{
+  text-align: center;
+}
+.footer-copyright b{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* стили Гостиницы */
+.hotel-list ul{
+  list-style-type: none;
+}
+.button-detail{
+  font: inherit;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+.button-detail:hover{
+  background-color: #669ec0;
+}
+.button-detail:active{
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #5496bd;
+}
+.button-reservation{
+  font: inherit;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #766357;
+  border: none;
+}
+.button-reservation:hover{
+  background-color: #604e43;
+}
+.button-reservation:active{
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #503e33;
+}
+
+.hotel-preview-info h3 a{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+}
+.hotel-preview-info h3 a:hover{
+  color: #81b3d2;
+}
+.hotel-preview-info h3 a:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+.hotel-rating{
+  color: #666666;
+  background-color: #f2f2f2;
 }
