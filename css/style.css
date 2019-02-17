@@ -19,7 +19,17 @@ a{
   height: 1px;
   margin: -1px;
 }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.main-header-logo{
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
 
+}
 .main-navigation{
   font-size: 14px;
   line-height: 26px;
@@ -28,7 +38,10 @@ a{
   background-color: #ffffff;
 }
 .site-navigation{
+  display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .site-navigation a{
   color: #000000;
@@ -41,6 +54,11 @@ a{
 }
 .site-navigation .site-navigation-current{
   color: #766357;
+}
+.site-navigation li{
+  width: 240px;
+  text-align: center;
+
 }
 .welcome-background{
   background-color: #3e79a3;
