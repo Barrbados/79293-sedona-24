@@ -15,16 +15,19 @@
           <ul class="site-navigation">
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
-            <li></li>
+            <!-- <li></li> [хотел оставить как "костыль" но потом решил добавить- .site-navigation li:nth-child(3){margin-left: auto;} ] -->
             <li><a href="#">Карта штата</a></li>
             <li><a href="hotels.html">Гостиницы</a></li>
           </ul>
       </nav>
     </header>
-    <main>
+    <main class="container">
     <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
-    <div class="welcome-background">
-
+    <!--думаю это лучше просто одной картинкой, но я не разобрался с фотошопом, да и для опыта полезно было.
+  Потом в дальнейшем эффекты повесить будет проще))  -->
+     <div class="index-background-fhoto">
+      <div class="welcome-background"></div>
+      <div class="index-background-mask"></div>
     </div>
       <section class="heading-features">
         <h2 class="main-h2">Седона - небольшой городок в аризоне,<br>заслуживающий большего!</h2>
@@ -38,6 +41,8 @@
 				<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<button class="button-open-form">Поиск гостиницы в седоне</button>
       </section>
+      <div class="index-map">
+      </div>
       <form class="idex-search-form" action="" method="post">
         <h2 class="visually-hidden">Быстрый поиск гостиницы</h2>
         <div class="index-search-date">
@@ -54,18 +59,20 @@
       </form>
     </main>
     <footer class="main-footer">
-      <p class="hashtag">#Visitsedona</p>
-      <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Твитер</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Ютуб</a></li>
-        </ul>
-      </div>
-      <div class="footer-copyright">
-        <b>Website by</b>
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\logo-htmlacademy.svg" alt="logo HTML Academy" width="115" height="41"></a>
-      </div>
+      <div class="container">
+        <p class="hashtag">#Visitsedona</p>
+        <div class="footer-social">
+          <ul>
+            <li><a class="social-button" href="#">Твитер</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Ютуб</a></li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <b>Website by</b>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\logo-htmlacademy.svg" alt="logo HTML Academy" width="115" height="41"></a>
+        </div>
+        </div>
     </footer>
   </body>
 </html>

@@ -28,9 +28,11 @@ a{
   position: absolute;
   left: 50%;
   margin-left: -70px;
-
+  width: 140px;
+  height: 72px;
 }
 .main-navigation{
+  min-height: 56px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -39,6 +41,7 @@ a{
 }
 .site-navigation{
   display: flex;
+  flex-direction: row;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,29 +61,53 @@ a{
 .site-navigation li{
   width: 240px;
   text-align: center;
-
 }
-.welcome-background{
+.site-navigation li:nth-child(3){
+  margin-left: auto;
+}
+.index-background-fhoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #3e79a3;
-  background-image: url("../img/intro-welcome.svg"); /*  Временно  !!!!!!!!!!!!!!!!!! */
-  background-position: top center;
+  background-image: url("../img/background_photo.jpg");
+  background-position: 0 -56px;
   background-repeat: no-repeat;
   height: 510px;
+  margin-bottom: 60px;
+}
+.welcome-background{
+  margin-top: 75px;
+  background-image: url("../img/intro-welcome.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 353px;
+  width: 459px;
+}
+.index-background-mask{
+  margin-top: auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 57px;
+  background-image: url("../img/intro-mask.svg");
 }
 .heading-features{
   text-align: center;
   line-height: 26px;
-  height: 217px;
+  margin-bottom: 56px;
 }
 .heading-features h2{
   font-size: 21px;
   font-weight: bold;
   color: #000000;
+  margin-bottom: 35px;
 }
 /* Временно для красоты */
 .features{
-  background-color: #eeeeee;
-  height: 1100px;
+  background-color: #81b3d2;
+  min-height: 1100px;
+  margin-bottom: 54px;
 }
 .hotel-search-offer{
   line-height: 24px;
@@ -91,6 +118,9 @@ a{
   font-weight: bold;
   line-height: 36px;
   color: #000000;
+}
+.hotel-search-offer p{
+  margin-bottom: 50px;
 }
 .button-open-form{
   font: inherit;
@@ -111,6 +141,18 @@ a{
   color: rgba(255, 255, 255, 0.7);
   background-color: #503e33;
 }
+
+.index-map{
+  background-image: url("../img/map.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 593px;
+  margin-bottom: -120px;
+}
+/* ФОРМА */
+.idex-search-form{
+  display: none;
+}
 .index-search-date,
 .index-search-sum{
   text-align: center;
@@ -118,6 +160,7 @@ a{
   color: #000000;
   font-weight: bold;
   line-height: normal;
+
 }
 .index-search-date input,
 .index-search-sum input{
@@ -169,7 +212,21 @@ a{
   height: 120px;
   background-color: rgba(249, 251, 246, 0.9);
 }
+.main-footer .container{
+  display: flex;
+}
+/* Временно */
+.hashtag,
+.footer-social,
+.footer-copyright{
+  min-height: 50px;
+}
 .hashtag{
+  padding-top: 47px;
+  padding-left: 130px;
+  margin: 0;
+  margin-right: 255px;:
+  width: 240px;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
@@ -177,19 +234,29 @@ a{
   text-decoration: underline;
 }
 .footer-social{
+  padding: 36px 0;
+  width: 150px;
   text-align: center;
 }
 .footer-social ul{
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-/* Временные стили для соцсетей */
-.social-button{
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 26px;
-  color: #000000;
+
+.footer-social li{
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
 }
 .footer-copyright{
+  margin: 0;
+  margin-left: auto;
+  padding-top: 36px;
+  padding-right: 90px;
+  width: 240px;
   text-align: center;
 }
 .footer-copyright b{
@@ -197,9 +264,30 @@ a{
   font-weight: 400;
   line-height: 26px;
 }
+
 /* стили Гостиницы */
+
+.hotel-filer{
+  background-color: #64696f;
+  min-height: 304px;
+}
 .hotel-list ul{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hotel-search-results{
+  display: flex;
+  padding: 30px 73px;
+  min-height: 150px;
+}
+.hotel-preview-foto{
+  margin-right: 30px;
+  width: 135px;
+}
+.hotel-preview-info h3,
+.hotel-preview-info p{
+  margin: 0;
 }
 .button-detail{
   font: inherit;
@@ -252,6 +340,14 @@ a{
 }
 .hotel-preview-info h3 a:active{
   color: rgba(0, 0, 0, 0.3);
+}
+.hotels-raiting-column{
+  margin: auto;
+  margin-right: 0;
+}
+.hotels-raiting-column ul{
+  display: flex;
+  justify-content: flex-end;
 }
 .hotel-rating{
   color: #666666;
