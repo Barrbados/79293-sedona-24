@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans Regular", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -43,7 +43,7 @@ img{
   min-height: 56px;
   font-size: 14px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
@@ -109,7 +109,7 @@ img{
 }
 .heading-features h2{
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
   margin-top: 60px;
   margin-bottom: 35px;
@@ -126,7 +126,7 @@ img{
 }
 .hotel-search-offer b{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 36px;
   color: #000000;
 }
@@ -139,7 +139,7 @@ img{
   font: inherit;
   text-align: center;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 26px;
   color: #ffffff;
   vertical-align: middle;
@@ -171,7 +171,7 @@ img{
   text-align: center;
   font-size: 14px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
   line-height: normal;
 
 }
@@ -181,7 +181,7 @@ img{
   text-align: center;
   font-size: 14px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
   line-height: normal;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -205,7 +205,7 @@ img{
   font: inherit;
   text-align: center;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 26px;
   color: #ffffff;
   vertical-align: middle;
@@ -235,7 +235,7 @@ img{
   margin-right: 255px;:
   width: 240px;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 26px;
   color: #000000;
   text-decoration: underline;
@@ -279,6 +279,15 @@ img{
 .social-button:hover{
   background-color: #669ec0;
   }
+.twitter:active{
+  background-image: url(../img/twitter-blue.svg);
+}
+.fb:active{
+  background-image: url(../img/fb-icon-blue.svg);
+}
+.ytobe:active{
+  background-image: url(../img/youtube-blue.svg);
+}
   /* КАк сделать картинки с затемнением через CSS?.
    или Добавить свг новую картинку? или svg код в HTML?*/
 .social-button:active{
@@ -361,7 +370,7 @@ img{
 .hotel-preview-info h3 a{
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
@@ -388,7 +397,7 @@ img{
   font: inherit;
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
