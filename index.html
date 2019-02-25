@@ -15,7 +15,6 @@
           <ul class="site-navigation">
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
-            <!-- <li></li> [хотел оставить как "костыль" но потом решил добавить- .site-navigation li:nth-child(3){margin-left: auto;} ] -->
             <li><a href="#">Карта штата</a></li>
             <li><a href="hotels.html">Гостиницы</a></li>
           </ul>
@@ -23,8 +22,6 @@
     </header>
     <main class="container">
     <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
-    <!--думаю это лучше просто одной картинкой, но я не разобрался с фотошопом, да и для опыта полезно было.
-  Потом в дальнейшем эффекты повесить будет проще))  -->
      <div class="index-background-fhoto">
       <div class="welcome-background"></div>
       <div class="index-background-mask"></div>
@@ -40,23 +37,28 @@
 				<b>Заинтересовались?</b>
 				<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<button class="button-open-form">Поиск гостиницы в седоне</button>
+        <!-- ********************* ФОРМА *******************  -->
+        <form class="index-search-form" action="" method="post">
+          <h2 class="visually-hidden">Быстрый поиск гостиницы</h2>
+          <div class="index-search-date">
+            <label for="index-form-check-in">Дата заезда:</label>
+            <input id="index-form-check-in" type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017">
+            <button class="calendar"></button>
+          </div>
+          <div class="index-search-date">
+            <label for="index-form-check-out">Дата выезда:</label>
+            <input id="index-form-check-out" type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017">
+            <button class="calendar"></button>
+          </div>
+          <div class="index-search-sum">
+            <label for="index-form-adults">Взрослые:</label><input id="index-form-adults" type="text" name="number" value="2">
+            <label for="index-form-children">Дети:</label><input id="index-form-children" type="text" name="number" value="0" >
+          </div>
+          <button class="index-form-submut" type="submit">Найти</button>
+        </form>
       </section>
       <div class="index-map">
       </div>
-      <form class="idex-search-form" action="" method="post">
-        <h2 class="visually-hidden">Быстрый поиск гостиницы</h2>
-        <div class="index-search-date">
-          <label for="index-form-check-in">Дата заезда:</label><input id="index-form-check-in" type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017">
-        </div>
-        <div class="index-search-date">
-          <label for="index-form-check-out">Дата выезда:</label><input id="index-form-check-out" type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017">
-        </div>
-        <div class="index-search-sum">
-          <label for="index-form-adults">Взрослые:</label><input id="index-form-adults" type="text" name="number" value="2">
-          <label for="index-form-children">Дети:</label><input id="index-form-children" type="text" name="number" value="0" >
-        </div>
-        <p><button class="index-form-submut" type="submit">Найти</button></p>
-      </form>
     </main>
     <footer class="main-footer">
       <div class="container">
