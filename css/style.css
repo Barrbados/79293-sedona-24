@@ -505,7 +505,6 @@ img{
   font-weight: 700;
   line-height: 26px;
   color: #000000;
-  text-decoration: underline;
 }
 .footer-social ul{
   display: flex;
@@ -562,7 +561,7 @@ img{
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .logo-htmlacademy{
   display: block;
