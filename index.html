@@ -51,8 +51,18 @@
             <button class="calendar"></button>
           </div>
           <div class="index-search-sum">
-            <label for="index-form-adults">Взрослые:</label><input id="index-form-adults" type="text" name="number" value="2">
-            <label for="index-form-children">Дети:</label><input id="index-form-children" type="text" name="number" value="0" >
+            <label for="index-form-adults">Взрослые:</label>
+            <div class="form-value-adults">
+              <button class="minus" type="button" name="button-minus"></button>
+              <input class="value-adults" id="index-form-adults" type="text" name="number" value="2">
+              <button class="plus" type="button" name="button-plus"></button>
+            </div>
+            <label for="index-form-children">Дети:</label>
+            <div class="form-value-children">
+              <button class="minus" type="button" name="button-minus"></button>
+              <input class="value-children" id="index-form-children" type="text" name="number" value="0" >
+              <button class="plus" type="button" name="button-plus"></button>
+            </div>
           </div>
           <button class="index-form-submut" type="submit">Найти</button>
         </form>
