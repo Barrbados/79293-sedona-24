@@ -123,19 +123,29 @@ img{
   min-height: 1100px;
   margin-bottom: 48px;
 }
-/* .features-village{
+.features-village{
   display: flex;
   min-height: 256px;
 }
 .features-village .town{
   width: 400px;
+  height: 256px;
   background-color: #81b3d2;
   color: #ffffff;
   text-align: center;
 }
 .features-village .image-town{
   width: 800px;
-
+}
+.features-list h4{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.features-list span{
+  margin-bottom: 28px;
 }
 .features-village img{
   width: 800px;
@@ -149,7 +159,7 @@ img{
 }
 .features-other{
   min-height: 256px;
-} */
+}
 .hotel-search-offer{
   position: relative;
   line-height: 24px;
