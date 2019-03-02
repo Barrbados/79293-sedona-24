@@ -207,6 +207,7 @@ img{
   min-height: 395px;
   background-color: #ffffff;
   box-shadow:0px 0px 30px 5px rgba(0,0,0,0.2);
+  display: none;
 }
 .index-search-date,
 .index-search-sum{
