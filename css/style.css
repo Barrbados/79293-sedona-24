@@ -9,10 +9,6 @@ body {
   text-transform: uppercase;
   background-color: #f2f2f2;
 }
-.container{
-  background-color: #ffffff;
-  box-shadow: 0 5px 15px rgba(0, 0, 1, .15);
-}
 a{
   text-decoration: none;
 }
@@ -36,7 +32,7 @@ img{
   margin: 0 auto;
   padding: 0;
   background-color: #ffffff;
-  box-shadow: 0 5px 15px rgba(0, 0, 1, .15);
+  box-shadow:0px -20px 30px 10px rgba(0,0,0,0.2)
 }
 .main-header-logo{
   position: absolute;
@@ -53,6 +49,7 @@ img{
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
+
 }
 .site-navigation{
   display: flex;
@@ -122,10 +119,37 @@ img{
   margin-bottom: 27px;
 }
 .features{
-  background-color: #81b3d2;
+  /* background-color: #81b3d2; */
   min-height: 1100px;
   margin-bottom: 48px;
 }
+/* .features-village{
+  display: flex;
+  min-height: 256px;
+}
+.features-village .town{
+  width: 400px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  text-align: center;
+}
+.features-village .image-town{
+  width: 800px;
+
+}
+.features-village img{
+  width: 800px;
+  height: 256px;
+}
+.features-services{
+  min-height: 332px;
+}
+.features-rock{
+  min-height: 256px;
+}
+.features-other{
+  min-height: 256px;
+} */
 .hotel-search-offer{
   position: relative;
   line-height: 24px;
@@ -182,6 +206,7 @@ img{
   width: 568px;
   min-height: 395px;
   background-color: #ffffff;
+  box-shadow:0px 0px 30px 5px rgba(0,0,0,0.2);
 }
 .index-search-date,
 .index-search-sum{
@@ -239,8 +264,6 @@ img{
 .form-value-children{
   display: flex;
 }
-/* .form-value-adults .minus::after,
-.form-value-children .minus::after{ */
 .minus,
 .plus{
   position: relative;
@@ -563,6 +586,8 @@ img{
     align-items: center;
     justify-content: space-around;
     background-color: rgba(249, 251, 246, 0.9);
+    box-shadow: none;
+    box-shadow:0px 20px 30px 10px rgba(0,0,0,0.2)
 }
 .hashtag,
 .footer-social,
