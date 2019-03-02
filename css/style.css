@@ -32,7 +32,7 @@ img{
   margin: 0 auto;
   padding: 0;
   background-color: #ffffff;
-  box-shadow:0px -20px 30px 10px rgba(0,0,0,0.2)
+  box-shadow:0px -5px 20px 5px rgba(0,0,0,0.2);
 }
 .main-header-logo{
   position: absolute;
@@ -276,7 +276,7 @@ img{
   width: 568px;
   min-height: 395px;
   background-color: #ffffff;
-  box-shadow:0px 0px 30px 5px rgba(0,0,0,0.2);
+  box-shadow:0px 5px 20px 5px rgba(0,0,0,0.2);
   display: none;
 }
 .index-search-date,
@@ -418,106 +418,6 @@ img{
   color: rgba(255, 255, 255, 0.7);
   background-color: #5496bd;
 }
-/* Футер */
-/* .main-footer .container{
-  display: flex;
-  height: 120px;
-  background-color: rgba(249, 251, 246, 0.9);
-}
-.hashtag{
-  padding-top: 47px;
-  padding-left: 130px;
-  margin: 0;
-  margin-right: 304px;
-  width: 240px;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 26px;
-  color: #000000;
-  text-decoration: underline;
-}
-.footer-social{
-  padding: 36px 0;
-  width: 150px;
-  text-align: center;
-}
-.footer-social ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 150px;
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-}
-
-.social-button{
-  display: flex;
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
-}
-.twitter{
-  background-image: url(../img/twitter.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.fb{
-  background-image: url(../img/fb-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.ytobe{
-  background-image: url(../img/youtube.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.social-button:hover{
-  background-color: #669ec0;
-  }
-.twitter:active{
-  background-image: url(../img/twitter-blue.svg);
-}
-.fb:active{
-  background-image: url(../img/fb-icon-blue.svg);
-}
-.ytobe:active{
-  background-image: url(../img/youtube-blue.svg);
-}
-
-.social-button:active{
-  background-color: rgba(84, 150, 189, 1);
-}
-.footer-copyright{
-  display: flex;
-  margin: 0;
-  margin-left: auto;
-  padding-top: 38px;
-  padding-right: 57px;
-  width: 240px;
-  text-align: center;
-}
-.footer-copyright span{
-  display: flex;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-right: 8px;
-  margin-top: 8px;
-}
-.logo-htmlacademy{
-  width: 115px;
-  height: 41px;
-  background-image: url(../img/logo-htmlacademy.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.logo-htmlacademy:hover{
-  background-image: url(../img/logo-htmlacademy-blue.svg);
-}
-.logo-htmlacademy:active{
-  background-image: url(../img/logo-htmlacademy-gray.svg);
-} */
 /* стили Гостиницы */
 /* стили Гостиницы */
 /* стили Гостиницы */
@@ -658,7 +558,7 @@ img{
     justify-content: space-around;
     background-color: rgba(249, 251, 246, 0.9);
     box-shadow: none;
-    box-shadow:0px 20px 30px 10px rgba(0,0,0,0.2)
+    box-shadow:0px 5px 20px 5px rgba(0,0,0,0.2);
 }
 .hashtag,
 .footer-social,
