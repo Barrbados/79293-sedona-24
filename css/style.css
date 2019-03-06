@@ -491,6 +491,8 @@ input[type="radio"].visually-hidden{
 }
 .price-controls{
   position: relative;
+  display: flex;
+  align-items: center;
   height: 32px;
   margin-bottom: 20px;
   font-size: 0;
@@ -516,7 +518,7 @@ input[type="radio"].visually-hidden{
 }
 .price-controls .min-price,
 .price-controls .max-price{
-  width: 90px;
+  width: 84px;
   padding-left: 64px;
 }
 .price-controls input{
@@ -590,7 +592,7 @@ input[type="radio"].visually-hidden{
 .sorting-found-filter{
   display: flex;
 }
-.sorting-found-filter h3{
+.sorting-found-filter .number-of-found{
   width: 135px;
   margin-right: 30px;
   font-size: 21px;
@@ -609,16 +611,61 @@ input[type="radio"].visually-hidden{
   padding: 0;
 }
 .sorting-found-filter li{
-  margin-right: 34px;
+  margin-right: 32px;
+
 }
 .sorting-found-filter li:first-child{
   margin-right: 40px;
 }
-.sorting-found-button a{
+.sorting-button{
+  color: #cacaca;
+  border-bottom: 2px dotted #81b3d2
+}
+.sorting-button:hover{
+  color: #81b3d2;
+}
+.sorting-button:active{
   color: #000000;
+  border: none;
+}
+.sorting-active-button{
+  color: #81b3d2;
+  border: none;
 }
 .sorting-found-minmax{
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 36px;
+  height: 10px;
+}
+.sorting-found-minmax a{
+  display: block;
+  width: 11px;
+  height: 10px;
+}
+.sorting-found-minmax .sort-up{
+  background-image: url(../img/icon-up-dir-gray.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sorting-found-minmax .sort-up:hover{
+  background-image: url(../img/icon-up-dir.svg);
+}
+.sorting-found-minmax .sort-up:active{
+  background-image: url(../img/icon-up-dir-blue.svg);
+}
+.sorting-found-minmax .sort-down{
+  background-image: url(../img/icon-down-dir-gray.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sorting-found-minmax .sort-down:hover{
+  background-image: url(../img/icon-down-dir.svg);
+}
+.sorting-found-minmax .sort-down-active,
+.sorting-found-minmax .sort-down:active{
+  background-image: url(../img/icon-down-dir-blue.svg);
 }
 .hotel-list ul{
   list-style-type: none;
@@ -639,9 +686,9 @@ input[type="radio"].visually-hidden{
   width: 135px;
 }
 .hotel-preview-info{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   width: 260px;
 }
 .hotel-preview-info h3,
@@ -666,6 +713,8 @@ input[type="radio"].visually-hidden{
 }
 .hotel-category-prise{
   display: flex;
+  margin-top: 8px;
+  margin-bottom: 13px;
 }
 .hotel-category{
   min-width: 110px;
@@ -719,8 +768,10 @@ input[type="radio"].visually-hidden{
 }
 .stars{
   background-image: url(../img/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   width: 18px;
-  height: 18px;
+  height: 16px;
   margin-left: 6px;
 }
 .hotel-rating{
