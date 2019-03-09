@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/openform.js"></script>
     <!-- <base href="https://htmlacademy-htmlcss.github.io/79293-sedona-24/2/"> -->
 </head>
   <body>
@@ -31,60 +32,63 @@
         <p class="main-reasons">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </section>
       <section class="features">
-             <!-- ЗДЕСЬ БУДЕТ БЛОК С ПРЕИМУЩИСТВАМИ СЕДОНЫ  -->
-             <div class="features-village">
-               <div class="features-list">
-                 <h4>Настоящий<br> городок</h4>
-                 <span>— №1 —</span>
-                <p>Седона — не аттракцион для туристов,<br> там течёт своя жизнь</p>
-               </div>
-               <div class="image-features">
-                 <img src="img/balkon.jpg" width="1600" height="800" alt="">
-               </div>
-             </div>
-             <div class="features-services">
-               <ul>
-                 <li class="housing">
-                   <h4>Жильё</h4>
-                    <p>Рекомендуем пожить в настоящем<br> мотеле, всё как в кино!</p>
-                 </li>
-                 <li class="food">
-                   <h4>Еда</h4>
-                   <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
-                 </li>
-                 <li class="souvenir">
-                   <h4>Сувениры</h4>
-                   <p>Не только китайского, но и местного <br> производства!</p>
-                 </li>
-               </ul>
-             </div>
-             <div class="features-village">
-               <div class="image-features">
-                 <img src="img/conyon.jpg" width="1600" height="800" alt="">
-               </div>
-               <div class="features-list">
-                 <h4>там есть<br> мост дьявола</h4>
-                 <span>— №2 —</span>
-                <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
-               </div>
-             </div>
-             <div class="features-other">
-               <div class="features-list">
-                 <h4>Небольшая<br> площадь</h4>
-                 <span>— №3 —</span>
-                 <p>Все достопримечательности<br> находятся очень близко</p>
-               </div>
-               <div class="features-list">
-                 <h4>Красивая<br> дорога</h4>
-                 <span>— №4 —</span>
-                 <p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
-               </div>
-               <div class="features-list">
-                 <h4>Мало<br> туристов</h4>
-                 <span>— №5 —</span>
-                 <p>Большинство едет в гранд каньон<br> и толпится там</p>
-               </div>
-             </div>
+             <!-- БЛОК С ПРЕИМУЩИСТВАМИ СЕДОНЫ  -->
+             <ul>
+               <li class="features-list">
+                 <div class="features-list-city">
+                   <h4>Настоящий<br> городок</h4>
+                   <span>— №1 —</span>
+                   <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                 </div>
+                 <div class="image-features">
+                   <img src="img/balkon.jpg" width="1600" height="800" alt="">
+                 </div>
+                 <ul class="features-services">
+                     <li class="housing">
+                       <h4>Жильё</h4>
+                        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                     </li>
+                     <li class="food">
+                       <h4>Еда</h4>
+                       <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                     </li>
+                     <li class="souvenir">
+                       <h4>Сувениры</h4>
+                       <p>Не только китайского, но и местного производства!</p>
+                     </li>
+                 </ul>
+               </li>
+               <li class="features-list">
+                 <div class="image-features">
+                   <img src="img/conyon.jpg" width="1600" height="800" alt="">
+                 </div>
+                 <div class="features-list-city">
+                   <h4>там есть<br> мост дьявола</h4>
+                   <span>— №2 —</span>
+                   <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                 </div>
+               </li>
+               <li class="features-list">
+                 <div class="features-list-other">
+                   <h4>Небольшая<br> площадь</h4>
+                   <span>— №3 —</span>
+                   <p>Все достопримечательности находятся очень близко</p>
+                 </div>
+               </li>
+               <li class="features-list">
+                 <div class="features-list-other">
+                   <h4>Красивая<br> дорога</h4>
+                   <span>— №4 —</span>
+                   <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                 </div>
+               </li>
+               <li class="features-list">
+                 <div class="features-list-other">
+                   <h4>Мало<br> туристов</h4>
+                   <span>— №5 —</span>
+                   <p>Большинство едет в гранд каньон<br> и толпится там</p>
+                 </div>
+             </ul>
       </section>
       <section class="hotel-search-offer">
 				<b>Заинтересовались?</b>
@@ -95,25 +99,25 @@
           <h2 class="visually-hidden">Быстрый поиск гостиницы</h2>
           <div class="index-search-date">
             <label for="index-form-check-in">Дата заезда:</label>
-            <input id="index-form-check-in" type="text" name="date" value="24 апреля 2017" placeholder="24 апреля 2017">
+            <input id="index-form-check-in" type="text" name="check-in" value="24 апреля 2017" placeholder="24 апреля 2017">
             <button class="calendar"></button>
           </div>
           <div class="index-search-date">
             <label for="index-form-check-out">Дата выезда:</label>
-            <input id="index-form-check-out" type="text" name="date" value="4 июля 2017" placeholder="4 июля 2017">
+            <input id="index-form-check-out" type="text" name="check-out" value="4 июля 2017" placeholder="4 июля 2017">
             <button class="calendar"></button>
           </div>
           <div class="index-search-sum">
             <label for="index-form-adults">Взрослые:</label>
             <div class="form-value-adults">
               <button class="minus" type="button" name="button-minus"></button>
-              <input class="value-adults" id="index-form-adults" type="text" name="number" value="2">
+              <input class="value-adults" id="index-form-adults" type="text" name="value-adults" value="2">
               <button class="plus" type="button" name="button-plus"></button>
             </div>
             <label for="index-form-children">Дети:</label>
             <div class="form-value-children">
               <button class="minus" type="button" name="button-minus"></button>
-              <input class="value-children" id="index-form-children" type="text" name="number" value="0" >
+              <input class="value-children" id="index-form-children" type="text" name="value-children" value="0" >
               <button class="plus" type="button" name="button-plus"></button>
             </div>
           </div>
