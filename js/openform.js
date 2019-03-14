@@ -5,12 +5,7 @@
   var checkout = document.querySelector("[name=check-out]");
   var adults = document.querySelector("[name=value-adults]");
   var children = document.querySelector("[name=value-children]");
-  // var isStorageSupport = true;
-  // var storage = "no";
-  //
-  // try{
-  //
-  // }
+
 
   link.addEventListener("click", function (evt) {
     evt.preventDefault();
