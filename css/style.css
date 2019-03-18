@@ -948,4 +948,5 @@ input[type="radio"].visually-hidden{
 .map iframe{
   width: 1200px;
   height: 593px;
+  frameborder: 0;
 }
